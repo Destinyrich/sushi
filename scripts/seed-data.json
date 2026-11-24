@@ -1,0 +1,99 @@
+{
+  "categories": [
+    {
+      "name": "Weddings",
+      "slug": "weddings",
+      "description": "Beautiful wedding moments"
+    },
+    {
+      "name": "Portraits",
+      "slug": "portraits",
+      "description": "Stunning portrait sessions"
+    },
+    {
+      "name": "Events",
+      "slug": "events",
+      "description": "Memorable celebrations"
+    },
+    {
+      "name": "Engagements",
+      "slug": "engagements",
+      "description": "Romantic couple sessions"
+    }
+  ],
+  "services": [
+    {
+      "name": "Wedding Photography",
+      "slug": "wedding",
+      "description": "Full wedding day coverage from preparation to reception",
+      "duration": "8-12 hours",
+      "includes": "Pre-wedding consultation,Full day coverage,500+ edited photos,Online gallery,USB drive",
+      "icon": "rings",
+      "price_from": "250000",
+      "is_active": true
+    },
+    {
+      "name": "Portrait Sessions",
+      "slug": "portrait",
+      "description": "Professional portrait photography for individuals and families",
+      "duration": "1-2 hours",
+      "includes": "Pre-session consultation,30-50 edited photos,Online gallery",
+      "icon": "person",
+      "price_from": "50000",
+      "is_active": true
+    },
+    {
+      "name": "Birthday Celebrations",
+      "slug": "birthday",
+      "description": "Capture the joy and excitement of your special birthday",
+      "duration": "3-5 hours",
+      "includes": "Event coverage,100+ edited photos,Online gallery,Print-ready files",
+      "icon": "cake",
+      "price_from": "80000",
+      "is_active": true
+    },
+    {
+      "name": "Corporate Events",
+      "slug": "corporate",
+      "description": "Professional coverage for corporate events and conferences",
+      "duration": "4-8 hours",
+      "includes": "Event coverage,200+ edited photos,Online gallery,Commercial license",
+      "icon": "briefcase",
+      "price_from": "120000",
+      "is_active": true
+    },
+    {
+      "name": "Engagement Sessions",
+      "slug": "engagement",
+      "description": "Romantic pre-wedding photography sessions",
+      "duration": "2-3 hours",
+      "includes": "Location scouting,60-80 edited photos,Online gallery",
+      "icon": "heart",
+      "price_from": "75000",
+      "is_active": true
+    }
+  ],
+  "testimonials": [
+    {
+      "client_name": "Adaeze & Chukwuemeka Obi",
+      "event_type": "Wedding",
+      "message": "Lucky captured our wedding day perfectly! Every detail, every emotion was beautifully preserved. We couldn't have asked for a better photographer.",
+      "rating": 5,
+      "is_featured": true
+    },
+    {
+      "client_name": "Fatima Abubakar",
+      "event_type": "Birthday Celebration",
+      "message": "Sushi Photography made my 30th birthday unforgettable. The photos are stunning and truly captured the spirit of the evening.",
+      "rating": 5,
+      "is_featured": true
+    },
+    {
+      "client_name": "Emeka & Ngozi Nwosu",
+      "event_type": "Engagement Session",
+      "message": "Our engagement photos are absolutely breathtaking. Lucky has an incredible eye for romantic moments and natural beauty.",
+      "rating": 5,
+      "is_featured": true
+    }
+  ]
+}

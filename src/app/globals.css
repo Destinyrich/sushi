@@ -1,0 +1,46 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink: #0a0a0a;
+  --bone: #f5f0ea;
+  --cream: #faf8f5;
+  --gold: #c9a96e;
+  --gold-light: #e8d5b0;
+  --muted: #8a8278;
+  --border: rgba(201,169,110,0.2);
+  --shadow: 0 4px 40px rgba(0,0,0,0.08);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+h1,h2,h3,h4 { font-family: 'Cormorant Garamond', serif; font-weight: 300; }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
+
+.serif { font-family: 'Cormorant Garamond', serif; }
+.gold { color: var(--gold); }
+
+img { display: block; width: 100%; object-fit: cover; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+input, textarea, select { font-family: inherit; }
+
+/* Hover effects (previously inline JS handlers) */
+.zoom img { transition: transform 0.6s ease; }
+.zoom:hover img { transform: scale(1.04); }
+.zoom-soft img { transition: transform 0.5s ease; }
+.zoom-soft:hover img { transform: scale(1.03); }
+.tile { transition: background 0.3s; }
+.tile:hover { background: rgba(201,169,110,0.05); }
+.row-hover { transition: background 0.2s; }
+.row-hover:hover { background: rgba(201,169,110,0.03); }
+.photo-card .overlay { opacity: 0; transition: opacity 0.3s; }
+.photo-card:hover .overlay { opacity: 1; }
+.admin-card .actions { opacity: 0; transition: opacity 0.2s; }
+.admin-card:hover .actions { opacity: 1; }
+.cta-gold { transition: background 0.25s; }
+.cta-gold:hover { background: #b8934a !important; }
